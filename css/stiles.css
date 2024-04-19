@@ -36,6 +36,10 @@ ol {
   list-style-type: none;
 }
 
+.header-link {
+  display: flex;
+}
+
 .padding-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -69,9 +73,8 @@ ol {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  width: 169px;
   height: 56px;
-  border: 0;
+  border: none;
 }
 
 .section-title .button:hover,
@@ -146,6 +149,7 @@ header .studio {
 }
 
 .section-our-time {
+  background: #f4f4fd;
 }
 
 .ul-three {
@@ -169,3 +173,25 @@ footer .studio {
 footer .text {
   color: #f4f4fd;
 }
+
+.navigation-header {
+  display: flex;
+}
+
+.header .container {
+  display: flex;
+}
+
+.address-link {
+  display: flex;
+}
+
+/*
+flex-wrap: wrap;
+gap
+row-gap
+column-gap
+margin-left: auto
+margin-rigt: auto;
+align-items: center
+*/
