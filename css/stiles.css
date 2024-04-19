@@ -8,6 +8,17 @@ body {
   font-size: 16px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -19,27 +30,36 @@ a {
 
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
-.button {
-  button: pointer;
+.padding-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.main-header {
+.section-title {
   background: #2e2f42;
+  width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 60px;
 }
 
-.h-one {
+.title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 0;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  width: 496px;
 }
 
-.main-header .button {
+.section-title .button-title {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -50,12 +70,15 @@ ol {
   cursor: pointer;
 }
 
-.main-header .button:hover,
-.main-header .button:focus {
+.section-title .button-title:hover,
+.section-title .button-title:focus {
   background-color: #404bbf;
 }
 
-.h-two-section {
+.section-advantages {
+}
+
+.h-two-title {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -64,7 +87,7 @@ ol {
   text-align: center;
 }
 
-.h-three-section {
+.h-three-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -87,13 +110,13 @@ header .studio {
   color: #2e2f42;
 }
 
-.nav-ul {
+.nav-link {
   color: #2e2f42;
   font-weight: 500;
 }
 
-.nav-ul:hover,
-.nav-ul:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -118,12 +141,17 @@ header .studio {
   color: #404bbf;
 }
 
-.section-three {
-  background-color: #f4f4fd;
+.section-our-time {
 }
 
 .ul-three {
   background-color: #ffffff;
+}
+
+.section-our-portfolio {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 footer {
